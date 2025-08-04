@@ -13,5 +13,5 @@ PS> powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 
 uv init YOUR_PROJECT_NAME
 cd YOUR_PROJECT_NAME
 
-# Add dependencies 
+### Add dependencies 
 uv add NAME
