@@ -1,0 +1,56 @@
+# Result of Installation
+
+(mk_pytorch) C:\Users\MK>pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+Looking in indexes: https://download.pytorch.org/whl/cu126
+Collecting torch
+  Using cached https://download.pytorch.org/whl/cu126/torch-2.8.0%2Bcu126-cp313-cp313-win_amd64.whl.metadata (29 kB)
+Collecting torchvision
+  Using cached https://download.pytorch.org/whl/cu126/torchvision-0.23.0%2Bcu126-cp313-cp313-win_amd64.whl.metadata (6.3 kB)
+Collecting filelock (from torch)
+  Using cached https://download.pytorch.org/whl/filelock-3.13.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting typing-extensions>=4.10.0 (from torch)
+  Using cached https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting sympy>=1.13.3 (from torch)
+  Using cached https://download.pytorch.org/whl/sympy-1.13.3-py3-none-any.whl.metadata (12 kB)
+Collecting networkx (from torch)
+  Using cached https://download.pytorch.org/whl/networkx-3.3-py3-none-any.whl.metadata (5.1 kB)
+Collecting jinja2 (from torch)
+  Using cached https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting fsspec (from torch)
+  Using cached https://download.pytorch.org/whl/fsspec-2024.6.1-py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: setuptools in c:\users\mk\anaconda3\envs\mk_pytorch\lib\site-packages (from torch) (72.1.0)
+Requirement already satisfied: numpy in c:\users\mk\anaconda3\envs\mk_pytorch\lib\site-packages (from torchvision) (2.3.1)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in c:\users\mk\anaconda3\envs\mk_pytorch\lib\site-packages (from torchvision) (11.1.0)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch)
+  Using cached https://download.pytorch.org/whl/mpmath-1.3.0-py3-none-any.whl (536 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch)
+  Using cached https://download.pytorch.org/whl/MarkupSafe-2.1.5.tar.gz (19 kB)
+  Preparing metadata (setup.py) ... done
+Downloading https://download.pytorch.org/whl/cu126/torch-2.8.0%2Bcu126-cp313-cp313-win_amd64.whl (2915.4 MB)
+   ---------------------------------------- 2.9/2.9 GB 3.7 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/cu126/torchvision-0.23.0%2Bcu126-cp313-cp313-win_amd64.whl (6.2 MB)
+   ---------------------------------------- 6.2/6.2 MB 3.9 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/sympy-1.13.3-py3-none-any.whl (6.2 MB)
+   ---------------------------------------- 6.2/6.2 MB 3.3 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Downloading https://download.pytorch.org/whl/filelock-3.13.1-py3-none-any.whl (11 kB)
+Downloading https://download.pytorch.org/whl/fsspec-2024.6.1-py3-none-any.whl (177 kB)
+Downloading https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl (133 kB)
+Downloading https://download.pytorch.org/whl/networkx-3.3-py3-none-any.whl (1.7 MB)
+   ---------------------------------------- 1.7/1.7 MB 3.3 MB/s eta 0:00:00
+Building wheels for collected packages: MarkupSafe
+  DEPRECATION: Building 'MarkupSafe' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'MarkupSafe'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+  Building wheel for MarkupSafe (setup.py) ... done
+  Created wheel for MarkupSafe: filename=MarkupSafe-2.1.5-py3-none-any.whl size=9912 sha256=6f746e69280039d49f13b0ed58e41cf1b2b2f3d006e4503974c138fd54e16f7f
+  Stored in directory: c:\users\mk\appdata\local\pip\cache\wheels\84\b6\28\95b8e298901ee19b488797095efb5fbed28637ed83215b13b1
+Successfully built MarkupSafe
+Installing collected packages: mpmath, typing-extensions, sympy, networkx, MarkupSafe, fsspec, filelock, jinja2, torch, torchvision
+Successfully installed MarkupSafe-2.1.5 filelock-3.13.1 fsspec-2024.6.1 jinja2-3.1.4 mpmath-1.3.0 networkx-3.3 sympy-1.13.3 torch-2.8.0+cu126 torchvision-0.23.0+cu126 typing-extensions-4.12.2
+
+(mk_pytorch) C:\Users\MK>
+
+
+# 1404-06-03
+---------------------------------------------------
+torch-2.8.0+cu126-cp313-cp313-win_amd64.whl
+C:\Users\MK\AppData\Local\Temp\pip-unpack-bnoj6t73
