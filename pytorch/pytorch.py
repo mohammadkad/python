@@ -5,7 +5,6 @@
 
 import torch
 torch.__version__
-
 torch.cuda.is_available()
 
 # create a 0D tensor (scalar) from a Python integer
