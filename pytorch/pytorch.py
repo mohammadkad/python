@@ -7,6 +7,8 @@ import torch
 torch.__version__
 torch.cuda.is_available()
 
+# Scalars, vectors, matrices, and tensors
+
 # create a 0D tensor (scalar) from a Python integer
 tensor0d = torch.tensor(1)
 
@@ -18,6 +20,11 @@ tensor2d = torch.tensor([[1, 2], [3, 4]])
 
 # create a 3D tensor from a nested Python list
 tensor3d = torch.tensor([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+
+# Tensor data types, dtype, https://docs.pytorch.org/docs/stable/tensors.html
+tensor1d = torch.tensor([1, 2, 3])
+print(tensor1d.dtype)
+floatvec = tensor1d.to(torch.float32)
 
 # device, 1404-06-08
 # ---
