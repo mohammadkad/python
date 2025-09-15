@@ -1,0 +1,2 @@
+- Library installation path:
+  - C:\Users\MK\anaconda3\envs\mk_pytorch\Lib\site-packages
