@@ -11,5 +11,8 @@
   - Test in terminal: import torch, torch.__version__, torch.cuda.is_available()
 - Install JupyterLab or Notebook
 
+- Library installation path:
+  - C:\Users\MK\anaconda3\envs\mk_pytorch\Lib\site-packages
+
  
   
