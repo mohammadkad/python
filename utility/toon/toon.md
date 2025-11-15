@@ -1,5 +1,8 @@
 <!-- 1404-08-24 -->
-# install directly from GitHub:
+
+## TOON (Token-Oriented Object Notation)
+
+### install directly from GitHub:
 pip install git+https://github.com/toon-format/toon-python.git
 
 - from toon_format import encode, decode
